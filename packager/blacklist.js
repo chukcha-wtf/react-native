@@ -16,6 +16,8 @@ var sharedBlacklist = [
   /node_modules[/\\]react[/\\]dist[/\\].*/,
   'node_modules/react/lib/React.js',
   'node_modules/react/lib/ReactDOM.js',
+  /web\/.*/,
+  /windows\/.*/,
 
   // For each of these fbjs files (especially the non-forks/stubs), we should
   // consider deleting the conflicting copy and just using the fbjs version.
